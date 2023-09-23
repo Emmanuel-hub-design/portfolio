@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/bf61eba2aa.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <div id="header">
+    
+       
+        <div class="container mt-3">
+         
+            <nav>
+                <img src="logo.png" class="logo">
+                <ul>
+                     <li><a href="#">HOME</a></li>
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="#">SERVICES</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                <ul>
+
+                    
+                </ul>
+            </nav>
+            <div class= "header-text">
+                <p> WEB/GRAPHICS DESIGN</p>
+<h1>Hi, I'm <span>Emmanuel</span><br> Baraka from Kenya</h1>
+            </div>
+        </div> 
+ 
+    </div>  
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="barakabackground.png">
+                </div> 
+                           <div class="about-col-2"></div>
+<h1 class="sub-title">about Me</h1>
+<p>Emmanuel Baraka is passionate web designer with expertise and skills in HTML,CSS, and Javascript.
+    Apart from that he does a bit of graphics design with GIMP software and Adobe Illustrator. 
+    He is also pretty much good at data analysis with python and Microsoft excel.I find immense joy 
+    in crafting visually stunning and highly interactive websites that not only look great but also deliver exceptional user experiences.
+
+In addition to my technical skills, I'm a great collaborator and communicator. I enjoy working in teams, sharing knowledge, 
+and tackling projects that push the boundaries of web development. I'm excited about the future of the web and look forward to contributing 
+to its evolution.
+</p> 
+<div class="tab-title">
+    <p class="tab-links active-link">Skills</p>
+    <p class="tab-links"></p>
+    <p class="tab-links">Education</p>
+</div>
+<div class= "tab-contents">
+    <ul>
+        <li><span>Web Development</span></li>
+        <li><span>Graphic Design</span></li>
+    </ul>
+</div>
+            </div>
+
+        </div>
+
+    </div>
+    <!---------------------------------------------services------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+
+                    <i class="fa-solid fa-code"></i>
+                    <h2> Web Design</h2>
+                    <p>I develop quality and commendable websites at affordable prices<br> using javascript,HTML an CSS</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i> 
+                    <h2>Graphic Design</h2>
+                    <p>I design high end logos,banners,cards and posters at avery small fee</p>
+                    <a href="#">Learn more</a>
+                </div>
+
+            </div>
+
+        </div>
+        <!------------------------contact---------------->
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <div class="contact-right">
+                        <form>
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="email" placeholder="Your Email" required>
+                            <textarea name="Message" rows="6"placeholder="Your Message"></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+                        </form>
+                        </div>
+
+                    
+                    <div class="contact-left">
+                       
+                        <p><i class="fa-solid fa-paper-plane"></i>contact@barakaemmanuel413@gmail.com</p>
+                        <p><i class="fa-solid fa-phone"></i>0793766027</p>
+                        <div class="social-icons">
+                            <a href=""><i class="fa-brands fa-facebook"></i></a>
+                            <a href=""><i class="fa-brands fa-twitter"></i></a>
+                            <a href=""><i class="fa-brands fa-instagram"></i></a>
+                            <a href=""><i class="fa-brands fa-linkedin"></i></a> 
+                        
+    
+                        </div>
+
+                
+
+                </div>
+                
+                
+            </div>
+
+        </div>
+        <div class="copyright">
+            <p>copyright @ebaraka</p>
+        </div>
+
+    </div>
+
+
+</body>
+</html>
